@@ -82,7 +82,7 @@ document.querySelectorAll(".btn-label").forEach(item => {
             const number = item.getAttribute("for");
             field[number[3]][number[1]] = "#";
             console.log(field);
-            AJAX("echo.php", "POST", field);
+            AJAX("script.php", "POST", field);
             // Сразу отправлять данные в back-end на обработку игры
         }else {
             alert.classList.add("active");
