@@ -1,0 +1,1 @@
+.main__block{height:100vh;width:100%;display:flex;justify-content:center;align-items:center}.result{position:absolute;z-index:10;background-color:#eee;width:800px;height:800px;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:20px}.disable{display:none}

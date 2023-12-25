@@ -1,0 +1,71 @@
+.btn {
+  cursor: pointer;
+  position: relative;
+}
+
+.row__block input[type=radio] {
+  display: none;
+}
+
+.btn-label {
+  display: inline-block;
+  padding: 50px;
+  margin: 2px;
+  background-color: #eee;
+}
+
+.btn__result {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: violet;
+  padding: 20px;
+}
+
+.submit-button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.cross::before,
+.cross::after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 7px;
+  left: 10%;
+  top: 50%;
+  background-color: red;
+}
+
+.cross::after {
+  transform: rotate(45deg);
+}
+
+.cross::before {
+  transform: rotate(135deg);
+}
+
+.null::before,
+.null::after {
+  position: absolute;
+  content: "";
+  left: 10%;
+  top: 10%;
+  border-radius: 50%;
+}
+
+.null::before {
+  background-color: blue;
+  width: 5rem;
+  height: 5rem;
+}
+
+.null::after {
+  z-index: 1;
+  background-color: #eee;
+  left: 18%;
+  top: 18%;
+  height: 4rem;
+  width: 4rem;
+}
